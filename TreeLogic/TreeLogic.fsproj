@@ -44,8 +44,8 @@
     <Compile Include="Model.fs" />
     <Compile Include="ViewModels.fs" />
     <None Include="Script.fsx" />
-    <Content Include="packages.config" />
     <Content Include="app.config" />
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
@@ -53,8 +53,8 @@
       <AssemblyName>FSharp.Core.dll</AssemblyName>
       <HintPath>$(MSBuildExtensionsPath32)\..\Reference Assemblies\Microsoft\FSharp\.NETCore\$(TargetFSharpCoreVersion)\FSharp.Core.dll</HintPath>
     </Reference>
-    <Reference Include="FSharp.ViewModule.Core">
-      <HintPath>..\packages\FSharp.ViewModule.Core.0.9.9.1\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\FSharp.ViewModule.Core.dll</HintPath>
+    <Reference Include="FSharp.ViewModule">
+      <HintPath>..\packages\FSharp.ViewModule.Core.0.9.9.3\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\FSharp.ViewModule.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

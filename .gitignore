@@ -46,3 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 packages/
+.vs/
+bin/
+obj/
+AdventTrees.sln.DotSettings.user

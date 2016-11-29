@@ -5,4 +5,4 @@ open System.Windows
 [<STAThread>]
 [<EntryPoint>]
 let main argv = 
-    Application().Run(FsAdvent.MainWindow().Root)
+    Application().Run(FsAdvent.MainWindow())
